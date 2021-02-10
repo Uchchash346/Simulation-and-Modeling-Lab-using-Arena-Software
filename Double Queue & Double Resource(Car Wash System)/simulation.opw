@@ -1,0 +1,15 @@
+[RESOURCES]
+QUE
+MA_1
+MA_2
+[VARIABLES]
+Queue.NumberIn
+Machine_2.NumberOut
+Machine_2.NumberIn
+Decide 1.NumberOut True
+Machine_1.NumberOut
+Queue.NumberOut
+Machine_1.NumberIn
+Decide 1.NumberOut False
+Entry.NumberOut
+Exit.NumberOut
